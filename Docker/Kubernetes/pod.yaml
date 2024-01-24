@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: simple-mirror-k8s
+  labels:
+    app.kubernetes.io/name: simple-mirror-k8s
+spec:
+  containers:
+    - name: simple-mirror-k8s
+      image: simple-mirror-k8s:latest
+      imagePullPolicy: Never
+      ports:
+        - containerPort: 7777
+      resources:
+        requests:
+          memory: "64Mi"
+          cpu: "250m"
+        limits:
+          memory: "1024Mi"
+          cpu: "500m"
