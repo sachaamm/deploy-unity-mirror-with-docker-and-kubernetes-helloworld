@@ -1,2 +1,2 @@
-# mirror-k8s-example
-Deploy a Mirror Server with Docker and Kubernetes.
+# deploy-unity-mirror-with-k8s-helloworld
+Deploy a [Mirror](https://mirror-networking.com/) Server with Docker and Kubernetes.
