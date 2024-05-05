@@ -1,1 +1,2 @@
-# mirror-k8s-simple
+# mirror-k8s-example
+Deploy a Mirror Server with Docker and Kubernetes.
